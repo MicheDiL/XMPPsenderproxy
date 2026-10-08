@@ -1,0 +1,13 @@
+To change secret key passphrase
+In the shell enter the following command to enter the gpg shell:
+
+gpg --edit-key adg@GWHtoL
+
+gpg> passwd
+
+Enter the passphrase '738p0v6iqg0vcr0mb0ubc328ff'
+and the new passphrase at the prompts
+then
+
+gpg> save
+gpg> exit
